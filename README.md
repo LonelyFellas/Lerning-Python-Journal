@@ -1,1 +1,1 @@
-# Lerning-Python-Juarnal
+# Lerning-Python-Journal
