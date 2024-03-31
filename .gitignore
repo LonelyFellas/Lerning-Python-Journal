@@ -3,6 +3,7 @@ node_modules
 
 # builds
 .vitepress
+dist/
 
 # local
 pnpm-lock.yaml
