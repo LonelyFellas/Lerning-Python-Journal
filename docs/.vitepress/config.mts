@@ -14,12 +14,14 @@ export default defineConfig({
     sidebar: [
       {
         text: "Basic",
+        collapsed: true,
         items: [
           {
-            text: "first-python-program",
+            text: "First Python Program",
             link: "/basic/first-python-program.md",
           },
-          { text: "loop-else", link: "/basic/loop-else.md" },
+          { text: "Loop-else", link: "/basic/loop-else.md" },
+          { text: "Data type", link: "/basic/data-type.md" },
         ],
       },
     ],
