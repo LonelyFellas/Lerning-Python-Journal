@@ -22,6 +22,7 @@ export default defineConfig({
           },
           { text: "Loop-else", link: "/basic/loop-else.md" },
           { text: "Data type", link: "/basic/data-type.md" },
+          { text: "Pack Unpack", link: "/basic/pack-unpack.md" },
         ],
       },
     ],
