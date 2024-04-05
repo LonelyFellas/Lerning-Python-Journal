@@ -24,6 +24,7 @@ export default defineConfig({
           { text: "Data type", link: "/basic/data-type.md" },
           { text: "Pack Unpack", link: "/basic/pack-unpack.md" },
           { text: "Loop Range", link: "/basic/loop-range.md" },
+          { text: "String", link: "/basic/string.md" },
         ],
       },
     ],
