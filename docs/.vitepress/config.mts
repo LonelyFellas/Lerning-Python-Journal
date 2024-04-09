@@ -23,8 +23,15 @@ export default defineConfig({
           { text: "Loop-else", link: "/basic/loop-else.md" },
           { text: "Data type", link: "/basic/data-type.md" },
           { text: "Pack Unpack", link: "/basic/pack-unpack.md" },
-          { text: "Loop Range", link: "/basic/loop-range.md" },
           { text: "String", link: "/basic/string.md" },
+        ],
+      },
+      {
+        text: "Function",
+        collapsed: true,
+        items: [
+          { text: "All", link: "/functions/all.md" },
+          { text: "Range", link: "functions/range.md" },
         ],
       },
     ],
