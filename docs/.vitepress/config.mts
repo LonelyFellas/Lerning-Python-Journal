@@ -24,6 +24,8 @@ export default defineConfig({
           { text: "Data type", link: "/basic/data-type.md" },
           { text: "Pack Unpack", link: "/basic/pack-unpack.md" },
           { text: "String", link: "/basic/string.md" },
+          { text: "Set", link: "/basic/set.md" },
+          { text: "Dict", link: "/basic/dict.md" },
         ],
       },
       {
