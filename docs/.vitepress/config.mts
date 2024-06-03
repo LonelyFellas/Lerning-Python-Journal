@@ -34,7 +34,13 @@ export default defineConfig({
         items: [
           { text: "All", link: "/functions/all.md" },
           { text: "Range", link: "functions/range.md" },
+          { text: "Zip", link: "functions/zip.md" },
         ],
+      },
+      {
+        text: "Module",
+        collapsed: true,
+        items: [{ text: "Datetime", link: "modules/datetime.md" }],
       },
     ],
 
