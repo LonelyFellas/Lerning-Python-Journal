@@ -35,6 +35,7 @@ export default defineConfig({
           { text: "All", link: "/functions/all.md" },
           { text: "Range", link: "functions/range.md" },
           { text: "Zip", link: "functions/zip.md" },
+          { text: "Attr", link: "functions/attr.md" },
         ],
       },
       {
