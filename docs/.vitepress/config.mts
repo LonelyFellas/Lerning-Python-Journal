@@ -36,6 +36,7 @@ export default defineConfig({
           { text: "Range", link: "functions/range.md" },
           { text: "Zip", link: "functions/zip.md" },
           { text: "Attr", link: "functions/attr.md" },
+          { text: "decorator", link: "functions/decorator.md" },
         ],
       },
       {
