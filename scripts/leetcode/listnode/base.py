@@ -1,4 +1,5 @@
 from typing import List
+
 class ListNode:
     def __init__(self, data):
         self.val = data # 节点存储的数据

@@ -26,6 +26,7 @@ export default defineConfig({
           { text: "String", link: "/basic/string.md" },
           { text: "Set", link: "/basic/set.md" },
           { text: "Dict", link: "/basic/dict.md" },
+          { text: "Division", link: "/basic/division.md" },
         ],
       },
       {
