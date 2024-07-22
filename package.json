@@ -1,5 +1,6 @@
 {
   "name": "python-dev",
+  "author": "darwish",
   "scripts": {
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
