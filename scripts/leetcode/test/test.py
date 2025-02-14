@@ -14,6 +14,7 @@ class Test:
         except:
             print("无法获取 lambda 源码")
 
+        # 如何过基础类型
         is_passed = result == expected
         if is_passed:
             print(f"✅{source} 通过了!")
