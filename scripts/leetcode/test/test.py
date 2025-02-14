@@ -18,6 +18,6 @@ class Test:
         if is_passed:
             print(f"✅{source} 通过了!")
         else:
-            print(f"❌{source} 没有通过了!")
+            print(f"❌{source} 没有通过了! 实际结果是 {result}")
 
 
