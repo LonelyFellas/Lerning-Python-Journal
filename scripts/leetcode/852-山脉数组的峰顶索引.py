@@ -6,7 +6,8 @@ class Solution:
     def peekIndexInMountainArray(self, arr: List[int]) -> int:
         n = len(arr)
 
-        # while
+
+
 
         return 1
 
