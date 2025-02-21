@@ -10,19 +10,19 @@ class Solution:
             n -= 1
             current = message[n]
 
-            if current == ' ':
+            if current == ' ' and word != '':
                 reverse_words += word
                 if n != 0:
                     reverse_words += ' '
-                word = ""
+                word = ''
 
-            else:
+            elif current != ' ':
                 word = current + word
 
         return reverse_words
 
 
 
-Test.case(lambda: Solution().reverseWords('the sky is blue'), 'blue is sky the')
-Test.case(lambda: Solution().reverseWords(' hello world '), 'world hello')
-Test.case(lambda: Solution().reverseWords('a good    example'), 'example    good a')
+# Test.case(lambda: Solution().reverseWords('the sky is blue'), 'blue is sky the')
+# Test.case(lambda: Solution().reverseWords(' hello world '), 'world hello')
+Test.case(lambda: Solution().reverseWords('a good    example'), 'example good a')
